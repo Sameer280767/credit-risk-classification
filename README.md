@@ -33,7 +33,7 @@
  - Model prformance was judged by generating the confusion matrix and generating a classification report
 
  - Confusion matrix generated following 4 data points. 
- #### For health loans
+ #### For healthy loans
   - TP: True positive. Loan was healthy and predicted healthy
   - FP: False positive.Loan was risky but predicted healthy
   - TN: True negative. Loan was risky and predicted risky
