@@ -22,7 +22,7 @@
 
  - Above acton was done by  importing the train_test_split function from sklearn.model_selection module and splitting the data into training and testing sets with a random state of 1
 
- - This the data into training and testing sets, ensuring reproducibility of the split with a fixed random state
+ - Thus data which was split into training and testing sets, reproducibility of the split with a fixed random state was ensured
 
  - The LogisticRegression class from the sklearn.linear_model module in Python was used for logistic regression
 
@@ -33,12 +33,12 @@
  - Model prformance was judged by generating the confusion matrix and generating a classification report
 
  - Confusion matrix generated following 4 data points. 
- For health loans
+ #### For health loans
   - TP: True positive. Loan was healthy and predicted healthy
   - FP: False positive.Loan was risky but predicted healthy
   - TN: True negative. Loan was risky and predicted risky
   - FN: False negative. Loan was healthy but predicted risky
-For risky loans
+#### For risky loans
   - TP: True positive. Loan was risky and predicted risky
   - FP: False positive.Loan was healthy but predicted risky
   - TN: True negative. Loan was healthy and predicted healthy
