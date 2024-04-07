@@ -2,17 +2,17 @@
 
 ## Overview of the Analysis
 
-* <u>Purpose of the analysis<u>
+### Purpose of the analysis
 
  - Using a dataset of historical lending activity from a peer-to-peer lending services company, build a model that can identify credit worthiness of customers
 
-* <u>Data used and predictions made<u>
+### Data used and predictions made
 
  - Historical data containing details of loans with a column detailing if the loan was healthy or risky was used
 
   - A model was built which would predict which loans were likely to be healthy or risky
 
-* <u>Variables and model building<u>
+### Variables and model building
 
  - Using Pandas a variable for the data as a dataframe was created
 
@@ -28,7 +28,7 @@
 
  - Model was fitted to training data and predictions were made on the test data using LogisticRegression
 
-*<u>Model performance<u>
+### Model performance
 
  - Model prformance was judged by generating the confusion matrix and generating a classification report
 
@@ -52,7 +52,7 @@ Above numbers were used to calculate
 
  - f1 - what % of positive cases were correct
 
-*<u>Summary of results:Predicting healthy loans<u>
+### Summary of results:Predicting healthy loans
 
  - Precision is high at almost 100%. False positive (predicted as healthy when they were risk) instances were 56. This led to a high precision score.
 
@@ -60,7 +60,7 @@ Above numbers were used to calculate
 
  - To summarise model was very effcient in predicting healthy loans
 
-*<u>Summary of results:Predicting risky loans<u>
+### Summary of results:Predicting risky loans
 
  - Precision was at 85%. This was as Fasle Positives instances of molel predicting loan to be risky when they were healthy were 102
 
